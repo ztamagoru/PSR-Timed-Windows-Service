@@ -26,7 +26,7 @@ namespace IncrementService
         {
             counter = 0;
 
-            schedule = new DateTime(2023, 9, 8, 11, 0, 0);
+            schedule = new DateTime(2023, 9, 8, 12, 0, 0);
             //año - mes - día - hora - min - seg
 
             if (!File.Exists(path))
